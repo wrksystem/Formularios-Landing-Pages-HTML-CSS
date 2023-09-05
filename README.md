@@ -14,3 +14,7 @@ https://github.com/wrksystem/Inicial-Page-Apple
 
 LANDING PAGE 05
 https://github.com/wrksystem/Landing-Page-HTML-CSS-1
+
+LANDING PAGE 06
+https://github.com/wrksystem/Formularios-Landing-Pages-HTML-CSS/tree/main/Fitness_Landing_Page_in_HTML_CSS
+
