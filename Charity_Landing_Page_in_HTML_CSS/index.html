@@ -7,8 +7,144 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" 
     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 <body>
-    
+    <header>
+        <nav>
+           <img src="images/logo-regular-free-img.png" alt="logo">
+           <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#what">What we do</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <button>Donate</button>
+           </ul> 
+        </nav>
+
+        <!--Home Section-->
+        <div class="head" id="home">
+            <h3>Together, we can</h3>
+            <h1>
+                Build a world where <br />
+                all youth are safe
+            </h1>
+            <button>Read More</button>
+        </div>
+    </header>
+
+    <!--About Section-->
+    <section class="about" id="about">
+        <div class="about-left-side">
+            <h1>Our Impact</h1>
+            <h3>
+                We've worked on improving the lives of <br />
+                over 25,000 young people through direct <br />
+                practice.
+            </h3>
+            <p>
+                Young people from diferent backgrounds have a huge <br />
+                Impact on us and all our actctivities. They highlight those<br />
+                parts of the society that are broken, so we can help them in <br />
+                all possible ways to regain hope and flourish in life.   
+            </p>
+            <button>Read More</button>
+        </div>
+        <div class="about-right-side">
+            <img src="images/about-01-free-img.jpg" alt="about-img">
+        </div>
+    </section>
+
+    <!--What Section-->
+    <section class="what" id="what">
+        <h1>What We Do</h1>
+        <hr />
+        <p>
+            <span>W</span>e plan and support amazing projects that help change the
+            lives of disadvantaged children and youg people from across diferent
+            regions of the world.
+        </p>
+        <button>Read More</button>
+        <div class="cards">
+            <div class="box boxa">
+                <h2>We Find & Fund</h2>
+                <h5>
+                    We are in search of opportunities to help as many youth as possible.
+                    We approach and fund all those who are in need.
+                </h5>
+                <hr />
+            </div>
+            <div class="box boxb">
+                <h2>Provider Care</h2>
+                <h5>
+                    We are in search of opportunities to help as many youth as possible.
+                    We approach and fund all those who are in need.
+                </h5>
+                <hr />
+            </div>
+            <div class="box boxc">
+                <h2>We Educate</h2>
+                <h5>
+                    We are in search of opportunities to help as many youth as possible.
+                    We approach and fund all those who are in need.
+                </h5>
+                <hr />
+            </div>
+            <div class="box boxd">
+                <h2>We Employ</h2>
+                <h5>
+                    We are in search of opportunities to help as many youth as possible.
+                    We approach and fund all those who are in need.
+                </h5>
+                <hr />
+            </div>
+        </div>
+        <div class="images">
+            <img src="images/gallery-001-free-img.jpg" alt="img">
+            <img src="images/gallery-002-free-img.jpg" alt="img">
+            <img src="images/gallery-003-free-img.jpg" alt="img">
+        </div>  
+    </section>
+
+    <!--Action-->
+    <section class="action">
+        <h3>GIVE US A HAND</h3>
+        <h1>Support us and change the course of a <br />child's life today!</h1>
+        <button>Donate</button>
+    </section>
+
+    <!--Contact Section-->
+    <section class="contact" id="contact">
+        <div class="contact-left-side">
+            <h2>Stay up to date</h2>
+            <input type="email" placeholder="Email Address" /> <br />
+            <br />
+            <button>SUBMIT</button>
+            <h1>GIVE US A HAND</h1>
+            <P>
+                Copyright © 2023 Charity | Design by <span>Ms. Web Developer</span>.
+            </P> 
+        </div>
+        <div class="contact-right-side">
+            <h3>Contact</h3>
+            <h4>123 Firth Avenue, New York, NY 10160</h4>
+            <p>929-242-6868</p>
+            <div class="icons">
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        //All animations will take exactly 500ms
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            speedAsDuration: true,
+        });
+    </script>
 </body>
 </html>
