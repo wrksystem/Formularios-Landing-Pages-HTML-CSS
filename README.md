@@ -18,3 +18,6 @@ https://github.com/wrksystem/Landing-Page-HTML-CSS-1
 LANDING PAGE 06
 https://github.com/wrksystem/Formularios-Landing-Pages-HTML-CSS/tree/main/Fitness_Landing_Page_in_HTML_CSS
 
+LANDING PAGE 07
+https://github.com/wrksystem/Formularios-Landing-Pages-HTML-CSS/tree/main/Charity_Landing_Page_in_HTML_CSS
+
